@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  /* border: 1px solid red; */
+}
+body {
+  background-image: url("https://wallpaperaccess.com/full/875811.jpg");
+  background-size: 1200px;
+}
+button {
+  padding: 2px 4px;
+  float: right;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: white;
+  border-radius: 4px;
+  border: 0px;
+  cursor: pointer;
+}
+img {
+  width: 15px;
+  margin: 2px 4px;
+}
+header {
+  padding: 10px 10px;
+  margin: 15px 15px;
+  background-color: #ecbdc4;
+  border-radius: 8px;
+}
+a {
+  padding: 2px 4px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.head {
+  margin: 0px 5px;
+}
+button:hover {
+  color: white;
+  background-color: #b1b1b3;
+}
+a:hover {
+  color: white;
+  background-color: #b1b1b3;
+}
+.formhead {
+  color: rgb(50, 50, 50);
+  position: relative;
+  display: flex;
+  font-weight: bold;
+  font-size: 25px;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  font-family: "Gwendolyn", cursive;
+}
+.formhead:after {
+  display: inline;
+  content: "Merry Christmas";
+  position: absolute;
+  color: #e6c4d1;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  font-weight: lighter;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+  margin: 2px 56px;
+}
+.form1 {
+  display: flex;
+  justify-content: center;
+  width: 45%;
+  margin: 40px auto;
+  border: 2px solid #ecbdc4;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.form2 {
+  width: 45%;
+  margin: 15px auto;
+  border: 2px solid #ecbdc4;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.p1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 10px;
+  margin: 10px 105px;
+}
+label {
+  display: block;
+  margin: 10px 7px;
+}
+input {
+  margin: 0px 7px;
+  padding: 4px 4px;
+  width: 535px;
+  height: 25px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 0.5px solid black;
+}
+hr {
+  margin: auto;
+  width: 500px;
+}
+#fullname {
+  margin-top: 12px;
+}
+input[type="submit"] {
+  margin: 22px 7px;
+  margin-bottom: 10px;
+  background-color: #ecbdc4;
+}
+#timeforcall {
+  width: 258px;
+  margin: 0px 7px;
+}

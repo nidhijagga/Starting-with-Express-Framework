@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project1 Call for Santa</title>
+    <link rel="stylesheet" href="/css/contactUs.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gwendolyn&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div>
+      <header>
+        <img
+          src="https://cdn-icons.flaticon.com/svg/3917/3917033.svg?token=exp=1670313468~hmac=7fa1e57f418309b9e9adae08cd4768f4"
+          id="homeimg"
+          alt=""
+          class="head"
+        />
+        <a href="/admin/add-product" id="home" class="head">Home</a>
+        <button class="head">Contact Us</button>
+        <button class="head">About Us</button>
+      </header>
+    </div>
+    <form action="" class="form1">
+      <div class="formhead">Bring Santa at your Home</div>
+    </form>
+    <form action="/submit" method="POST" class="form2">
+      <div class="p1">
+        <p>
+          Book a call slot. Our representative will call you within 1hr of
+          selected time.
+        </p>
+      </div>
+      <hr />
+      <div class="info">
+        <label for="name" id="fullname"> Full Name: </label>
+        <input type="text" id="name" name="name" required />
+        <br />
+        <label for="email"> Email: </label>
+        <input type="email" id="email" name="email" required />
+        <br />
+        <label for="number"> Contact No: </label>
+        <input type="text" id="number" name="number" pattern="[0-9]{11,11}" />
+        <br />
+        <label for="timeforcall"> Time for call: </label>
+        <input type="date" id="timeforcall" name="date" />
+        <input type="time" id="timeforcall" name="time" />
+      </div>
+      <div class="submit">
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>
